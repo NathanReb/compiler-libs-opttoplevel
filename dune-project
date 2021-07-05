@@ -9,4 +9,5 @@
 (authors "Nathan Rebours <nathan.p.rebours@gmail.com")
 
 (package
- (name compiler-libs-opttoplevel))
+ (name compiler-libs-opttoplevel)
+ (synopsis "META file for OCaml native toplevel"))
