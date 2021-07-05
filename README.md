@@ -6,5 +6,5 @@ to use the native toplevel library in your dune projects.
 
 To install in your current switch, simply run:
 ```
-opam pin add compiler-libs-opttoplevel.dev git+https://github.com/NathanReb/compiler-libs-toptoplevel
+opam pin add compiler-libs-opttoplevel.dev git+https://github.com/NathanReb/compiler-libs-opttoplevel.git
 ```
