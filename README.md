@@ -12,8 +12,10 @@ opam pin add compiler-libs-opttoplevel.0.1.0 git+https://github.com/NathanReb/co
 or add the following `pin-depends` field to your opam file:
 ```
 pin-depends: [
-  "compiler-libs-opttoplevel.0.1.0"
-  "git+https://github.com/NathanReb/compiler-libs-opttoplevel.git#0.1.0"
+  [
+    "compiler-libs-opttoplevel.0.1.0"
+    "git+https://github.com/NathanReb/compiler-libs-opttoplevel.git#0.1.0"
+  ]
 ]
 ```
 
