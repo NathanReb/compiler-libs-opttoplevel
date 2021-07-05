@@ -8,3 +8,13 @@ To install in your current switch, simply run:
 ```
 opam pin add compiler-libs-opttoplevel.0.1.0 git+https://github.com/NathanReb/compiler-libs-opttoplevel.git#0.1.0
 ```
+
+or add the following `pin-depends` field to your opam file:
+```
+pin-depends: [
+  "compiler-libs-opttoplevel.0.1.0"
+  "git+https://github.com/NathanReb/compiler-libs-opttoplevel.git#0.1.0"
+]
+```
+
+The native toplevel library will be available under the name `compiler-libs-opttoplevel`.
