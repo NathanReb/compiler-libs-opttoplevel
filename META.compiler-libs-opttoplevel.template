@@ -1,6 +1,6 @@
 directory= "+compiler-libs"
 requires = "compiler-libs.optcomp dynlink"
-version = "[distributed with Ocaml]"
+version = "[distributed with OCaml]"
 description = "Native Toplevel interactions"
 archive(byte) = "ocamlopttoplevel.cma"
 archive(native) = "ocamlopttoplevel.cmxa"
